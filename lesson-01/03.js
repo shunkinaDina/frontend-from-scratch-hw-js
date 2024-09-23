@@ -5,4 +5,14 @@
 */
 
 // your code
-let sum
+let sum = 0;
+let count = 0;
+
+while (count <= 20) {
+  if (count % 2 !== 0) {
+    sum = sum + count
+  }
+  count = count + 1
+
+}
+document.write("Сумма всех нечётных чисел от 1 до 20: " + sum)
